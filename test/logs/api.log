@@ -1,0 +1,725 @@
+[2025-01-03 20:10:29,388 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 125' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "jeremyhill@example.org", "fullName": "Rebecca Anderson", "password": "L%J3UNnwD^", "passwordRepeat": "L%J3UNnwD^"}' https://auth.dev-cinescope.store/register
+[2025-01-03 20:10:29,388 - INFO] - Response status_code='201', elapsed_time='0:00:00.367989'
+
+{
+  "id": "dfac0ad3-5c5a-4e32-851d-6447fdb018db",
+  "email": "jeremyhill@example.org",
+  "fullName": "Rebecca Anderson",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T17:10:06.121Z"
+}
+
+[2025-01-03 20:19:27,040 - INFO] - Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://auth.dev-cinescope.store/USER/anthony16@example.net
+[2025-01-03 20:19:27,040 - INFO] - Response status_code='401', elapsed_time='0:00:00.191267'
+
+{
+  "message": "Unauthorized",
+  "statusCode": 401
+}
+
+[2025-01-03 20:56:56,709 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 125' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "jessicahayes@example.com", "fullName": "Spencer Miller", "password": "3os1Epy$M%", "passwordRepeat": "3os1Epy$M%"}' https://auth.dev-cinescope.store/register
+[2025-01-03 20:56:56,709 - INFO] - Response status_code='201', elapsed_time='0:00:00.433688'
+
+{
+  "id": "3ec66aa3-3405-4fcd-acda-e2a12664a36e",
+  "email": "jessicahayes@example.com",
+  "fullName": "Spencer Miller",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T17:56:33.407Z"
+}
+
+[2025-01-03 20:58:50,520 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 127' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "jessicaandrade@example.net", "fullName": "Traci Thompson", "password": "(71VOXy45^", "passwordRepeat": "(71VOXy45^"}' https://auth.dev-cinescope.store/register
+[2025-01-03 20:58:50,520 - INFO] - Response status_code='201', elapsed_time='0:00:00.517237'
+
+{
+  "id": "2b35dd09-8b1b-4439-864b-9df09e834329",
+  "email": "jessicaandrade@example.net",
+  "fullName": "Traci Thompson",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T17:58:27.219Z"
+}
+
+[2025-01-03 21:01:52,472 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 119' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "dthompson@example.net", "fullName": "Henry Clark", "password": "QS3gwWPc3!", "passwordRepeat": "QS3gwWPc3!"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:01:52,473 - INFO] - Response status_code='201', elapsed_time='0:00:00.354458'
+
+{
+  "id": "02966411-e902-4181-81bc-c0907bc3ce1e",
+  "email": "dthompson@example.net",
+  "fullName": "Henry Clark",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:01:29.178Z"
+}
+
+[2025-01-03 21:02:40,271 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 121' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "aaron42@example.org", "fullName": "Kathleen Nelson", "password": "#mZ_8Em(h9", "passwordRepeat": "#mZ_8Em(h9"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:02:40,272 - INFO] - Response status_code='201', elapsed_time='0:00:00.402273'
+
+{
+  "id": "6c96a620-8713-401a-b29a-c731d2c14994",
+  "email": "aaron42@example.org",
+  "fullName": "Kathleen Nelson",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:02:16.968Z"
+}
+
+[2025-01-03 21:05:46,317 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 127' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "thomasstewart@example.com", "fullName": "Patrick Gregory", "password": "p*CT2YyyV7", "passwordRepeat": "p*CT2YyyV7"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:05:46,317 - INFO] - Response status_code='201', elapsed_time='0:00:00.489346'
+
+{
+  "id": "55d3bad3-af7b-4d27-a13a-fb69256a9ff8",
+  "email": "thomasstewart@example.com",
+  "fullName": "Patrick Gregory",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:05:23.006Z"
+}
+
+[2025-01-03 21:10:24,872 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 135' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "romeronatalie@example.com", "fullName": "Natalie Mercado", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:10:24,873 - INFO] - Response status_code='201', elapsed_time='0:00:00.485239'
+
+{
+  "id": "86e26c1e-d995-4d89-b7a6-da066adc1421",
+  "email": "romeronatalie@example.com",
+  "fullName": "Natalie Mercado",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:10:01.568Z"
+}
+
+[2025-01-03 21:15:12,916 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 133' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "dunlapcaitlin@example.com", "fullName": "Brian Johnson", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:15:12,916 - INFO] - Response status_code='201', elapsed_time='0:00:00.466688'
+
+{
+  "id": "46fde8fe-b7e8-4a6e-97ed-5356bd75fabf",
+  "email": "dunlapcaitlin@example.com",
+  "fullName": "Brian Johnson",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:14:49.605Z"
+}
+
+[2025-01-03 21:18:29,780 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 131' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "denisehines@example.org", "fullName": "Ralph Andrews", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:18:29,780 - INFO] - Response status_code='201', elapsed_time='0:00:00.376615'
+
+{
+  "id": "37ca3f41-5ec8-4718-adab-115f6bd82b31",
+  "email": "denisehines@example.org",
+  "fullName": "Ralph Andrews",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:18:06.474Z"
+}
+
+[2025-01-03 21:22:21,792 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 123' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "anita71@example.net", "fullName": "Amy Smith", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:22:21,793 - INFO] - Response status_code='201', elapsed_time='0:00:00.338937'
+
+{
+  "id": "caf3b81d-a680-408e-a792-d591b7ad1044",
+  "email": "anita71@example.net",
+  "fullName": "Amy Smith",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:21:58.474Z"
+}
+
+[2025-01-03 21:23:37,133 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 128' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "gmiller@example.com", "fullName": "Jesse Robinson", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:23:37,133 - INFO] - Response status_code='201', elapsed_time='0:00:00.886325'
+
+{
+  "id": "f9f25f9f-decd-4c16-a482-4f3bb1a09659",
+  "email": "gmiller@example.com",
+  "fullName": "Jesse Robinson",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:23:13.519Z"
+}
+
+[2025-01-03 21:23:37,391 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 62' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "gmiller@example.com", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:23:37,391 - INFO] - Response status_code='200', elapsed_time='0:00:00.252331'
+
+{
+  "user": {
+    "id": "f9f25f9f-decd-4c16-a482-4f3bb1a09659",
+    "email": "gmiller@example.com",
+    "fullName": "Jesse Robinson",
+    "createdAt": "2025-01-03T18:23:13.519Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY5ZjI1ZjlmLWRlY2QtNGMxNi1hNDgyLTRmM2JiMWEwOTY1OSIsImVtYWlsIjoiZ21pbGxlckBleGFtcGxlLmNvbSIsInJvbGVzIjpbIlVTRVIiXSwidmVyaWZpZWQiOnRydWUsImlhdCI6MTczNTkyODU5NCwiZXhwIjoxNzM1OTMwMzk0fQ.gVamepcj_6uZWDezsOs-Oj3IzW4nZPgk7UlIOWefr-0",
+  "expiresIn": 1735930394066
+}
+
+[2025-01-03 21:26:03,487 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 133' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "nelsonnatalie@example.net", "fullName": "Shannon Smith", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:26:03,488 - INFO] - Response status_code='201', elapsed_time='0:00:00.334764'
+
+{
+  "id": "c958a034-fb44-42b4-b7d6-0dc863f25553",
+  "email": "nelsonnatalie@example.net",
+  "fullName": "Shannon Smith",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:25:40.173Z"
+}
+
+[2025-01-03 21:26:03,814 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 68' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "nelsonnatalie@example.net", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:26:03,815 - INFO] - Response status_code='200', elapsed_time='0:00:00.319648'
+
+{
+  "user": {
+    "id": "c958a034-fb44-42b4-b7d6-0dc863f25553",
+    "email": "nelsonnatalie@example.net",
+    "fullName": "Shannon Smith",
+    "createdAt": "2025-01-03T18:25:40.173Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImM5NThhMDM0LWZiNDQtNDJiNC1iN2Q2LTBkYzg2M2YyNTU1MyIsImVtYWlsIjoibmVsc29ubmF0YWxpZUBleGFtcGxlLm5ldCIsInJvbGVzIjpbIlVTRVIiXSwidmVyaWZpZWQiOnRydWUsImlhdCI6MTczNTkyODc0MCwiZXhwIjoxNzM1OTMwNTQwfQ.RJVmvqjlt6XD2RUdbZMAOYxME99oNWlDfxrDVl2J8yU",
+  "expiresIn": 1735930540421
+}
+
+[2025-01-03 21:26:43,675 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 123' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "snelson@example.com", "fullName": "Erik Pena", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:26:43,676 - INFO] - Response status_code='201', elapsed_time='0:00:00.385739'
+
+{
+  "id": "d7047360-771c-4328-8552-8673c9727ede",
+  "email": "snelson@example.com",
+  "fullName": "Erik Pena",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:26:20.361Z"
+}
+
+[2025-01-03 21:26:44,002 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 62' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "snelson@example.com", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:26:44,003 - INFO] - Response status_code='200', elapsed_time='0:00:00.325095'
+
+{
+  "user": {
+    "id": "d7047360-771c-4328-8552-8673c9727ede",
+    "email": "snelson@example.com",
+    "fullName": "Erik Pena",
+    "createdAt": "2025-01-03T18:26:20.361Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQ3MDQ3MzYwLTc3MWMtNDMyOC04NTUyLTg2NzNjOTcyN2VkZSIsImVtYWlsIjoic25lbHNvbkBleGFtcGxlLmNvbSIsInJvbGVzIjpbIlVTRVIiXSwidmVyaWZpZWQiOnRydWUsImlhdCI6MTczNTkyODc4MCwiZXhwIjoxNzM1OTMwNTgwfQ.njMu5hFvS7srm579IAnDAhDUX4Ym8iaoZHBZ3KAFaE0",
+  "expiresIn": 1735930580619
+}
+
+[2025-01-03 21:30:18,728 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 128' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "nhenderson@example.net", "fullName": "Morgan Wise", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:30:18,728 - INFO] - Response status_code='201', elapsed_time='0:00:00.476104'
+
+{
+  "id": "953f1066-0726-4d01-ab8b-a9fd8fcc628d",
+  "email": "nhenderson@example.net",
+  "fullName": "Morgan Wise",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:29:55.407Z"
+}
+
+[2025-01-03 21:30:19,070 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 65' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "nhenderson@example.net", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:30:19,071 - INFO] - Response status_code='200', elapsed_time='0:00:00.335394'
+
+{
+  "user": {
+    "id": "953f1066-0726-4d01-ab8b-a9fd8fcc628d",
+    "email": "nhenderson@example.net",
+    "fullName": "Morgan Wise",
+    "createdAt": "2025-01-03T18:29:55.407Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1M2YxMDY2LTA3MjYtNGQwMS1hYjhiLWE5ZmQ4ZmNjNjI4ZCIsImVtYWlsIjoibmhlbmRlcnNvbkBleGFtcGxlLm5ldCIsInJvbGVzIjpbIlVTRVIiXSwidmVyaWZpZWQiOnRydWUsImlhdCI6MTczNTkyODk5NSwiZXhwIjoxNzM1OTMwNzk1fQ.tz-q-EBd0pyzfAGYPj26XVRC5sYFDWG-RZq2YIb8lA8",
+  "expiresIn": 1735930795758
+}
+
+[2025-01-03 21:33:26,725 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 133' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "jenningstara@example.org", "fullName": "Jonathan Patel", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:33:26,725 - INFO] - Response status_code='201', elapsed_time='0:00:00.500840'
+
+{
+  "id": "794a4800-35ab-474b-8cc0-2bba56c25236",
+  "email": "jenningstara@example.org",
+  "fullName": "Jonathan Patel",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:33:03.399Z"
+}
+
+[2025-01-03 21:33:26,976 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 67' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "jenningstara@example.org", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:33:26,976 - INFO] - Response status_code='200', elapsed_time='0:00:00.245489'
+
+{
+  "user": {
+    "id": "794a4800-35ab-474b-8cc0-2bba56c25236",
+    "email": "jenningstara@example.org",
+    "fullName": "Jonathan Patel",
+    "createdAt": "2025-01-03T18:33:03.399Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc5NGE0ODAwLTM1YWItNDc0Yi04Y2MwLTJiYmE1NmMyNTIzNiIsImVtYWlsIjoiamVubmluZ3N0YXJhQGV4YW1wbGUub3JnIiwicm9sZXMiOlsiVVNFUiJdLCJ2ZXJpZmllZCI6dHJ1ZSwiaWF0IjoxNzM1OTI5MTgzLCJleHAiOjE3MzU5MzA5ODN9.BwVS-O-bdXi7J7KxmDRvZtvHNLxfl7GQ5_BTu3Q3pfs",
+  "expiresIn": 1735930983661
+}
+
+[2025-01-03 21:34:11,835 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 131' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "parkerscott@example.com", "fullName": "Janet Simmons", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:34:11,836 - INFO] - Response status_code='201', elapsed_time='0:00:00.381108'
+
+{
+  "id": "88831c7b-1132-4609-ae7a-e5910ac2af60",
+  "email": "parkerscott@example.com",
+  "fullName": "Janet Simmons",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:33:48.522Z"
+}
+
+[2025-01-03 21:34:12,077 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 66' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "parkerscott@example.com", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:34:12,077 - INFO] - Response status_code='200', elapsed_time='0:00:00.239058'
+
+{
+  "user": {
+    "id": "88831c7b-1132-4609-ae7a-e5910ac2af60",
+    "email": "parkerscott@example.com",
+    "fullName": "Janet Simmons",
+    "createdAt": "2025-01-03T18:33:48.522Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijg4ODMxYzdiLTExMzItNDYwOS1hZTdhLWU1OTEwYWMyYWY2MCIsImVtYWlsIjoicGFya2Vyc2NvdHRAZXhhbXBsZS5jb20iLCJyb2xlcyI6WyJVU0VSIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MjkyMjgsImV4cCI6MTczNTkzMTAyOH0.oyvzE0A0dFf7EFx3PNuRhZAZ2pOkOObfOPiD7oQgTtk",
+  "expiresIn": 1735931028763
+}
+
+[2025-01-03 21:34:12,134 - INFO] - Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Cookie: refresh_token=636ed64f-a610-4627-bbb9-29a121376732' -H 'User-Agent: python-requests/2.32.3' https://auth.dev-cinescope.store/USER/parkerscott@example.com
+[2025-01-03 21:34:12,135 - INFO] - Response status_code='401', elapsed_time='0:00:00.055651'
+
+{
+  "message": "Unauthorized",
+  "statusCode": 401
+}
+
+[2025-01-03 21:38:28,174 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:38:28,175 - INFO] - Response status_code='200', elapsed_time='0:00:00.449726'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5Mjk0ODQsImV4cCI6MTczNTkzMTI4NH0.hBQKfCusmTZjyg1ilXkFLG-UfIdcNTaB0QlsiHxCWww",
+  "expiresIn": 1735931284858
+}
+
+[2025-01-03 21:38:28,518 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 134' -H 'Content-Type: application/json' -H 'Cookie: refresh_token=cbb97e99-a7ba-4513-b175-a6a0f148aa47' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "theresadonovan@example.org", "fullName": "Wendy Ramirez", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:38:28,519 - INFO] - Response status_code='201', elapsed_time='0:00:00.337172'
+
+{
+  "id": "51a4d869-2f02-48b7-997f-7603e92b5cc1",
+  "email": "theresadonovan@example.org",
+  "fullName": "Wendy Ramirez",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:38:05.201Z"
+}
+
+[2025-01-03 21:38:28,782 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 69' -H 'Content-Type: application/json' -H 'Cookie: refresh_token=cbb97e99-a7ba-4513-b175-a6a0f148aa47' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "theresadonovan@example.org", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:38:28,782 - INFO] - Response status_code='200', elapsed_time='0:00:00.261850'
+
+{
+  "user": {
+    "id": "51a4d869-2f02-48b7-997f-7603e92b5cc1",
+    "email": "theresadonovan@example.org",
+    "fullName": "Wendy Ramirez",
+    "createdAt": "2025-01-03T18:38:05.201Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxYTRkODY5LTJmMDItNDhiNy05OTdmLTc2MDNlOTJiNWNjMSIsImVtYWlsIjoidGhlcmVzYWRvbm92YW5AZXhhbXBsZS5vcmciLCJyb2xlcyI6WyJVU0VSIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5Mjk0ODUsImV4cCI6MTczNTkzMTI4NX0.69PAMK4DAPd8GCzVGpYdaAMMnRdBmWHOxoCNzsz36L8",
+  "expiresIn": 1735931285462
+}
+
+[2025-01-03 21:39:36,683 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:39:36,684 - INFO] - Response status_code='200', elapsed_time='0:00:00.395929'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5Mjk1NTMsImV4cCI6MTczNTkzMTM1M30.lQKGDcUBaMfuCzWhF1Mz-KGIxSDK6Cj54YzLVZJlg30",
+  "expiresIn": 1735931353361
+}
+
+[2025-01-03 21:39:36,947 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 128' -H 'Content-Type: application/json' -H 'Cookie: refresh_token=b55506c3-267d-447a-9dcf-89327cd3e7bb' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "charles47@example.com", "fullName": "James Porter", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:39:36,947 - INFO] - Response status_code='201', elapsed_time='0:00:00.260760'
+
+{
+  "id": "4f649db7-d026-4d30-9b4d-443ea043d3e4",
+  "email": "charles47@example.com",
+  "fullName": "James Porter",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:39:13.621Z"
+}
+
+[2025-01-03 21:39:37,185 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 64' -H 'Content-Type: application/json' -H 'Cookie: refresh_token=b55506c3-267d-447a-9dcf-89327cd3e7bb' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "charles47@example.com", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:39:37,185 - INFO] - Response status_code='200', elapsed_time='0:00:00.236018'
+
+{
+  "user": {
+    "id": "4f649db7-d026-4d30-9b4d-443ea043d3e4",
+    "email": "charles47@example.com",
+    "fullName": "James Porter",
+    "createdAt": "2025-01-03T18:39:13.621Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRmNjQ5ZGI3LWQwMjYtNGQzMC05YjRkLTQ0M2VhMDQzZDNlNCIsImVtYWlsIjoiY2hhcmxlczQ3QGV4YW1wbGUuY29tIiwicm9sZXMiOlsiVVNFUiJdLCJ2ZXJpZmllZCI6dHJ1ZSwiaWF0IjoxNzM1OTI5NTUzLCJleHAiOjE3MzU5MzEzNTN9.8IeSJHOjPE6Q7sNfl0rgxg_gXBW1J8lJHzx76JZDPgA",
+  "expiresIn": 1735931353865
+}
+
+[2025-01-03 21:40:48,388 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:40:48,389 - INFO] - Response status_code='200', elapsed_time='0:00:00.405231'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5Mjk2MjUsImV4cCI6MTczNTkzMTQyNX0.JoCdM_qE6l3fONUOkfiTLUAwQeI3dqHIrshvTQy5JIA",
+  "expiresIn": 1735931425064
+}
+
+[2025-01-03 21:44:13,172 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:44:13,173 - INFO] - Response status_code='200', elapsed_time='0:00:00.406973'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5Mjk4MjksImV4cCI6MTczNTkzMTYyOX0.ZB0VEK9qQ_h53UoBkW3aj7Htqtbbvfbh3yxGTiL2Xi4",
+  "expiresIn": 1735931629780
+}
+
+[2025-01-03 21:50:14,689 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:50:14,690 - INFO] - Response status_code='200', elapsed_time='0:00:00.389354'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAxOTEsImV4cCI6MTczNTkzMTk5MX0.fjeArm5RtHMXD6ctaovG8OwDNIC_mg5Nug9Y1mPaeYI",
+  "expiresIn": 1735931991367
+}
+
+[2025-01-03 21:52:22,831 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:52:22,832 - INFO] - Response status_code='200', elapsed_time='0:00:00.481026'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAzMTksImV4cCI6MTczNTkzMjExOX0.JDqErVLR5thu7Gld6njdMWb0CuF_uW61W2pRGX8TRIU",
+  "expiresIn": 1735932119500
+}
+
+[2025-01-03 21:52:23,494 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAzMTksImV4cCI6MTczNTkzMjExOX0.JDqErVLR5thu7Gld6njdMWb0CuF_uW61W2pRGX8TRIU' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:52:23,495 - INFO] - Response status_code='200', elapsed_time='0:00:00.660050'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAzMjAsImV4cCI6MTczNTkzMjEyMH0.EylexG5i_U2w0e7T-lMxO_2BiLh9-ilNUaY5udVhoJM",
+  "expiresIn": 1735932120170
+}
+
+[2025-01-03 21:52:34,059 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:52:34,059 - INFO] - Response status_code='200', elapsed_time='0:00:00.435365'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAzMzAsImV4cCI6MTczNTkzMjEzMH0.-q2VUDe69BH9fC5Kk6csglxdImd8wWC3oUX2rZPQ1xQ",
+  "expiresIn": 1735932130718
+}
+
+[2025-01-03 21:52:34,441 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAzMzAsImV4cCI6MTczNTkzMjEzMH0.-q2VUDe69BH9fC5Kk6csglxdImd8wWC3oUX2rZPQ1xQ' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:52:34,442 - INFO] - Response status_code='200', elapsed_time='0:00:00.374197'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzAzMzEsImV4cCI6MTczNTkzMjEzMX0.fbm790o6p_8mXbZDdyeqtNHvIOLleBDDSxcn8qCJSMI",
+  "expiresIn": 1735932131109
+}
+
+[2025-01-03 21:54:03,044 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:54:03,045 - INFO] - Response status_code='200', elapsed_time='0:00:00.463697'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzA0MTksImV4cCI6MTczNTkzMjIxOX0.VHwx5z9DC-ZR47yDe809NiI3jrQy6C1z0j7pitsoDqg",
+  "expiresIn": 1735932219702
+}
+
+[2025-01-03 21:54:03,246 - INFO] - Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzA0MTksImV4cCI6MTczNTkzMjIxOX0.VHwx5z9DC-ZR47yDe809NiI3jrQy6C1z0j7pitsoDqg' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://auth.dev-cinescope.store/USER/twalker@example.net
+[2025-01-03 21:54:03,247 - INFO] - Response status_code='200', elapsed_time='0:00:00.194375'
+
+{}
+
+[2025-01-03 21:55:20,596 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 61' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "test-admin@mail.com", "password": "KcLMmxkJMjBD1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:55:20,597 - INFO] - Response status_code='200', elapsed_time='0:00:00.373379'
+
+{
+  "user": {
+    "id": "a61fc8d8-e95f-4789-a736-e410e9654bc4",
+    "email": "test-admin@mail.com",
+    "fullName": "Test Admin",
+    "createdAt": "2024-04-12T14:10:47.916Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER",
+      "ADMIN",
+      "SUPER_ADMIN"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzA0OTcsImV4cCI6MTczNTkzMjI5N30.nAxb4OiR8tClalJoLwSexudrrhpsNhYztpmu0TKSklc",
+  "expiresIn": 1735932297271
+}
+
+[2025-01-03 21:55:20,855 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 126' -H 'Content-Type: application/json' -H 'Cookie: refresh_token=3c32791e-f489-436c-acc3-b196d9ea3928' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "helen32@example.com", "fullName": "Sherry Ramos", "password": "123VaKaNa21!@1", "passwordRepeat": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/register
+[2025-01-03 21:55:20,856 - INFO] - Response status_code='201', elapsed_time='0:00:00.251788'
+
+{
+  "id": "b9b179fa-350d-4c91-829a-b8b976649fec",
+  "email": "helen32@example.com",
+  "fullName": "Sherry Ramos",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T18:54:57.521Z"
+}
+
+[2025-01-03 21:55:21,082 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 62' -H 'Content-Type: application/json' -H 'Cookie: refresh_token=3c32791e-f489-436c-acc3-b196d9ea3928' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "helen32@example.com", "password": "123VaKaNa21!@1"}' https://auth.dev-cinescope.store/login
+[2025-01-03 21:55:21,083 - INFO] - Response status_code='200', elapsed_time='0:00:00.225862'
+
+{
+  "user": {
+    "id": "b9b179fa-350d-4c91-829a-b8b976649fec",
+    "email": "helen32@example.com",
+    "fullName": "Sherry Ramos",
+    "createdAt": "2025-01-03T18:54:57.521Z",
+    "verified": true,
+    "banned": false,
+    "roles": [
+      "USER"
+    ]
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI5YjE3OWZhLTM1MGQtNGM5MS04MjlhLWI4Yjk3NjY0OWZlYyIsImVtYWlsIjoiaGVsZW4zMkBleGFtcGxlLmNvbSIsInJvbGVzIjpbIlVTRVIiXSwidmVyaWZpZWQiOnRydWUsImlhdCI6MTczNTkzMDQ5NywiZXhwIjoxNzM1OTMyMjk3fQ.LcA5-R770rdGoKWoS3MZVIzeitMoRqtqd-3yPYkMqnA",
+  "expiresIn": 1735932297758
+}
+
+[2025-01-03 21:55:21,272 - INFO] - Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2MWZjOGQ4LWU5NWYtNDc4OS1hNzM2LWU0MTBlOTY1NGJjNCIsImVtYWlsIjoidGVzdC1hZG1pbkBtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiIsIlNVUEVSX0FETUlOIl0sInZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MzU5MzA0OTcsImV4cCI6MTczNTkzMjI5N30.nAxb4OiR8tClalJoLwSexudrrhpsNhYztpmu0TKSklc' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://auth.dev-cinescope.store/USER/helen32@example.com
+[2025-01-03 21:55:21,273 - INFO] - Response status_code='200', elapsed_time='0:00:00.187766'
+
+{
+  "id": "b9b179fa-350d-4c91-829a-b8b976649fec",
+  "email": "helen32@example.com",
+  "fullName": "Sherry Ramos",
+  "password": "$2b$10$Ayq66dREtAKSdD/kRYNQxOSI3v9LqYl4irRcfp2FaEfXSZTpjKMs6",
+  "createdAt": "2025-01-03T18:54:57.521Z",
+  "updatedAt": "2025-01-03T18:54:57.521Z",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ]
+}
+

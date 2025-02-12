@@ -1,0 +1,15 @@
+[2025-01-03 20:05:42,077 - INFO] - Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 124' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "anthony16@example.net", "fullName": "Stephanie Landry", "password": "(L#FGfudF4", "passwordRepeat": "(L#FGfudF4"}' https://auth.dev-cinescope.store/register
+[2025-01-03 20:05:42,078 - INFO] - Response status_code='201', elapsed_time='0:00:00.478183'
+
+{
+  "id": "e4970d27-0a61-4850-8a38-697a7b192918",
+  "email": "anthony16@example.net",
+  "fullName": "Stephanie Landry",
+  "verified": true,
+  "banned": false,
+  "roles": [
+    "USER"
+  ],
+  "createdAt": "2025-01-03T17:05:18.814Z"
+}
+
